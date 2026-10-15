@@ -53,15 +53,6 @@ python medir.py
 
 No Linux/macOS, troque `python` por `python3` se for o caso.
 
-### O que `python testes.py` faz
-
-Roda 14 testes e mostra cada um com `[OK]` ou `[FALHA]`. Os testes cobrem os casos difíceis
-pedidos (lista vazia, um elemento só, todos os elementos iguais, lista já ordenada, lista
-invertida) e mais alguns: dois elementos, negativos e repetidos, textos, listas aleatórias de
-vários tamanhos e a garantia de que a lista original não é alterada. Também conferem a contagem
-de comparações (por exemplo: a inserção faz `n - 1` comparações numa lista ordenada e
-`n(n - 1)/2` numa invertida). Termina com `OK` e código de saída 0 quando tudo passa.
-
 ### O que `python medir.py` faz
 
 1. Apaga `dados.csv`, `grafico_tempos.png` e `grafico_comparacoes.png`, se existirem.
