@@ -9,12 +9,8 @@ com medição de tempo e de número de comparações para listas aleatórias, e 
 | arquivo | o que é |
 |---|---|
 | `ordenacao.py` | os dois métodos (`insercao` e `intercalacao`) e o contador de comparações |
-| `testes.py` | testes que provam que os dois métodos ordenam certo |
 | `medir.py` | roda todas as medições e gera o CSV e os gráficos |
 | `dados.csv` | os números brutos das medições (uma linha por medição) |
-| `grafico_tempos.png` | tempo médio por n |
-| `grafico_comparacoes.png` | número médio de comparações por n |
-| `requirements.txt` | dependência usada nos gráficos (matplotlib) |
 | `RELATORIO.md` | a análise |
 
 ## Requisitos
